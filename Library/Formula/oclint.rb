@@ -22,10 +22,15 @@ class OCLintLLVM < Formula
 end
 
 class OCLintXcodebuild < Formula
+  url 'https://github.com/oclint/oclint-xcodebuild.git', :using => :git,
+                                                         :tag => 'v0.7'
   head 'https://github.com/oclint/oclint-xcodebuild.git'
 end
 
 class OCLintJSONCompilationDatabase < Formula
+  url 'https://github.com/oclint/oclint-json-compilation-database.git',
+    :using => :git,
+    :tag => 'v0.7'
   head 'https://github.com/oclint/oclint-json-compilation-database.git'
 end
 
